@@ -1,8 +1,8 @@
 import React from "react";
 import { MdEmojiEvents } from "react-icons/md";
-// import video1 from "../assets/videos/video1.mp4";
+import video1 from "../assets/videos/video1.mp4";
 import video2 from "../assets/videos/video2.mp4";
-// import video3 from "../assets/videos/video3.mp4";
+import video3 from "../assets/videos/video3.mp4";
 
 function Events() {
   return (
@@ -17,7 +17,7 @@ function Events() {
         {/* Card 1 */}
         <div className="absolute  md:top-5 left-8  sm:left-6 md:left-20 w-[280px] h-[120px] sm:w-[360px] sm:h-[120px] md:w-[600px] md:h-[180px] flex rounded-2xl shadow-2xl shadow-gray-500 bg-white">
           <video
-            // src={video1}
+            src={video1}
             autoPlay
             muted
             loop
@@ -53,7 +53,7 @@ function Events() {
         {/* Card 3 */}
         <div className="absolute top-[300px] md:top-[480px] left-8 sm:left-6 md:left-20 w-[280px] sm:w-[360px] md:w-[600px] h-[120px] sm:h-[120px] md:h-[180px] flex rounded-2xl shadow-2xl shadow-gray-500 bg-white">
           <video
-            // src={video3}
+            src={video3}
             autoPlay
             muted
             loop
