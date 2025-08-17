@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+@theme {
+  --breakpoint-xsm: 576px;
+  --breakpoint-sm: 400px;
+  --breakpoint-md: 770px;
+}
+
+/* src/index.css */
+.slick-prev:before,
+.slick-next:before {
+  color: green !important;
+  font-size: 30px !important;
+  opacity: 1 !important;
+}
