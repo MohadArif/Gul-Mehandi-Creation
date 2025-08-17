@@ -5,7 +5,7 @@ import "slick-carousel/slick/slick-theme.css";
 
 import couple from "../assets/images/couple.jpg";
 import bridehand from "../assets/images/bridehand.jpg";
-import coupleBiHandicap from "../assets/images/couple-Hand.jpg";
+import coupleBiHandicap from "../assets/images/couplehand.jpg";
 import couple2 from "../assets/images/couple2.jpg";
 import groome from "../assets/images/groome.jpg";
 import mehandi3 from "../assets/images/mehandi3.jpg";
