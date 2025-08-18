@@ -9,8 +9,9 @@ body {
 }
 
 @theme {
-  --breakpoint-xsm: 576px;
-  --breakpoint-sm: 400px;
+  /* --breakpoint-xsm: 500px; */
+  --breakpoint-xms: 300px;
+  --breakpoint-sm: 500px;
   --breakpoint-md: 770px;
 }
 

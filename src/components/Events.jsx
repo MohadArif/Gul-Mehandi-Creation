@@ -11,11 +11,11 @@ function Events() {
         <MdEmojiEvents /> Our Events
       </h1>
 
-      <div className="relative w-full min-h-[80vh] sm:min-h-[90vh] md:min-h-[130vh]">
+      <div className="relative w-full min-h-[70vh] sm:min-h-[90vh] md:min-h-[130vh]">
         {" "}
         {/* Ensures enough height */}
         {/* Card 1 */}
-        <div className="absolute  md:top-5 left-8  sm:left-6 md:left-20 w-[280px] h-[120px] sm:w-[360px] sm:h-[120px] md:w-[600px] md:h-[180px] flex rounded-2xl shadow-2xl shadow-gray-500 bg-white">
+        <div className="absolute  md:top-5 left-8  sm:left-6 md:left-20 w-[250px] h-[100px] sm:w-[360px] sm:h-[120px] md:w-[600px] md:h-[180px] flex rounded-2xl shadow-2xl shadow-gray-500 bg-white">
           <video
             src={video1}
             autoPlay
@@ -33,7 +33,7 @@ function Events() {
           </div>
         </div>
         {/* Card 2 */}
-        <div className="absolute top-[150px] md:top-[250px] right-8 sm:right-6 md:right-20 w-[280px] sm:w-[360px] md:w-[600px] h-[120px] sm:h-[120px] md:h-[180px] flex rounded-2xl shadow-2xl shadow-gray-500 bg-white">
+        <div className="absolute top-[130px] md:top-[250px] right-8 sm:right-6 md:right-20 w-[250px] sm:w-[360px] md:w-[600px] h-[100px] sm:h-[120px] md:h-[180px] flex rounded-2xl shadow-2xl shadow-gray-500 bg-white">
           <video
             src={video2}
             autoPlay
@@ -51,7 +51,7 @@ function Events() {
           </div>
         </div>
         {/* Card 3 */}
-        <div className="absolute top-[300px] md:top-[480px] left-8 sm:left-6 md:left-20 w-[280px] sm:w-[360px] md:w-[600px] h-[120px] sm:h-[120px] md:h-[180px] flex rounded-2xl shadow-2xl shadow-gray-500 bg-white">
+        <div className="absolute top-[260px] md:top-[480px] left-8 sm:left-6 md:left-20 w-[250px] sm:w-[360px] md:w-[600px] h-[100px] sm:h-[120px] md:h-[180px] flex rounded-2xl shadow-2xl shadow-gray-500 bg-white">
           <video
             src={video3}
             autoPlay
