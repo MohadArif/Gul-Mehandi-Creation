@@ -6,16 +6,16 @@ import video3 from "../assets/videos/video3.mp4";
 
 function Events() {
   return (
-    <div className="min-h-screen flex flex-col justify-center items-center bg-green-800 relative  sm:py-8 md:py-10">
+    <div className="min-h-[350px] flex flex-col justify-center items-center bg-green-800 relative  sm:py-8 md:py-10">
       <h1 className="text-2xl sm:text-3xl md:text-4xl text-white font-bold flex justify-center items-center gap-2 mb-5">
         <MdEmojiEvents /> Our Events
       </h1>
 
-      <div className="relative w-full min-h-[70vh] sm:min-h-[90vh] md:min-h-[130vh]">
+      <div className="relative w-full min-h-[75vh] sm:min-h-[80vh] md:min-h-[120vh]">
         {" "}
         {/* Ensures enough height */}
         {/* Card 1 */}
-        <div className="absolute  md:top-5 left-8  sm:left-6 md:left-20 w-[250px] h-[100px] sm:w-[360px] sm:h-[120px] md:w-[600px] md:h-[180px] flex rounded-2xl shadow-2xl shadow-gray-500 bg-white">
+        <div className="absolute  md:top-5 left-8  sm:left-6 md:left-20 w-[250px] h-[100px] sm:w-[360px] sm:h-[120px] md:w-[580px] md:h-[160px] flex rounded-2xl shadow-2xl shadow-gray-500 bg-white">
           <video
             src={video1}
             autoPlay
@@ -23,7 +23,7 @@ function Events() {
             loop
             className="w-1/2 h-full rounded-l-2xl object-cover"
           />
-          <div className="flex flex-col justify-center gap-0 md:gap-2 px-5 md:px-10  md:py-10">
+          <div className="flex flex-col justify-center gap-0 md:gap-2 px-5 md:px-10  md:py-5">
             <h1 className="text-xl md:text-2xl font-bold">Mehndi Ceremony</h1>
             <p className="text-[10px] overflow-hidden sm:overflow-auto">
               Celebrating love with colors and tradition. The bride{" "}
@@ -33,7 +33,7 @@ function Events() {
           </div>
         </div>
         {/* Card 2 */}
-        <div className="absolute top-[130px] md:top-[250px] right-8 sm:right-6 md:right-20 w-[250px] sm:w-[360px] md:w-[600px] h-[100px] sm:h-[120px] md:h-[180px] flex rounded-2xl shadow-2xl shadow-gray-500 bg-white">
+        <div className="absolute top-[130px] md:top-[220px] right-8 sm:right-6 md:right-20 w-[250px] sm:w-[360px] md:w-[580px] h-[100px] sm:h-[120px] md:h-[160px] flex rounded-2xl shadow-2xl shadow-gray-500 bg-white">
           <video
             src={video2}
             autoPlay
@@ -41,7 +41,7 @@ function Events() {
             loop
             className="w-1/2 h-full rounded-l-2xl object-cover"
           />
-          <div className="flex flex-col justify-center gap-0 md:gap-2 px-5 md:px-10  md:py-10">
+          <div className="flex flex-col justify-center gap-0 md:gap-2 px-5 md:px-10  md:py-5">
             <h1 className="text-xl md:text-2xl font-bold ">Sangeet Night</h1>
             <p className="text-[10px] overflow-hidden sm:overflow-auto">
               A musical evening filled with dance, laughter, and melodies where{" "}
@@ -51,7 +51,7 @@ function Events() {
           </div>
         </div>
         {/* Card 3 */}
-        <div className="absolute top-[260px] md:top-[480px] left-8 sm:left-6 md:left-20 w-[250px] sm:w-[360px] md:w-[600px] h-[100px] sm:h-[120px] md:h-[180px] flex rounded-2xl shadow-2xl shadow-gray-500 bg-white">
+        <div className="absolute top-[260px] md:top-[430px] left-8 sm:left-6 md:left-20 w-[250px] sm:w-[360px] md:w-[580px] h-[100px] sm:h-[120px] md:h-[160px] flex rounded-2xl shadow-2xl shadow-gray-500 bg-white">
           <video
             src={video3}
             autoPlay
@@ -59,7 +59,7 @@ function Events() {
             loop
             className="w-1/2 h-full rounded-l-2xl object-cover"
           />
-          <div className="flex flex-col justify-center gap-0 md:gap-2 px-5 md:px-10  md:py-10">
+          <div className="flex flex-col justify-center gap-0 md:gap-2 px-5 md:px-10  md:py-5">
             <h1 className="text-xl md:text-2xl font-bold">Wedding Ceremony</h1>
             <p className="text-[10px] overflow-hidden sm:overflow-auto">
               The big day where <b>Ayesha & Arjun</b> tie the knot, surrounded

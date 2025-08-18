@@ -38,7 +38,7 @@ function HeroSection() {
   return (
     <div className="slider-container w-full h-[280px] md:h-[430px] px-10">
       {/* Overlay text */}
-      <div className="absolute inset-0 flex flex-col items-center justify-center text-center z-10 my-40 mx-20 sm:mx-30 sm:mb-60 md:mx-40  md:my-70">
+      <div className="absolute inset-0 flex flex-col items-center justify-center text-center z-10 my-20 mx-20 pb-30 sm:mx-30 sm:mb-60 md:mx-40  md:my-70">
         <h1 className="text-xl xsm:text-3xl md:text-4xl text-white font-extrabold drop-shadow-lg">
           Gul Mehandi Creations
         </h1>
