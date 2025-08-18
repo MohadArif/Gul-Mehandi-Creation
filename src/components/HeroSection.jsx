@@ -36,17 +36,17 @@ function HeroSection() {
   // };
 
   return (
-    <div className="slider-container w-full h-[300px] md:h-[450px] px-10">
+    <div className="slider-container w-full h-[280px] md:h-[430px] px-10">
       {/* Overlay text */}
       <div className="absolute inset-0 flex flex-col items-center justify-center text-center z-10 my-40 mx-20 sm:mx-30 sm:mb-60 md:mx-40  md:my-70">
-        <h1 className="text-2xl xsm:text-4xl md:text-5xl text-white font-extrabold drop-shadow-lg">
+        <h1 className="text-xl xsm:text-3xl md:text-4xl text-white font-extrabold drop-shadow-lg">
           Gul Mehandi Creations
         </h1>
         <div>
-          <p className="text-[10px]  xsm:text-[15px] md:text-xl text-white drop-shadow-md">
+          <p className="text-[9px]  xsm:text-[12px] md:text-xl text-white drop-shadow-md">
             “Mehandi that speaks the heritage of love, tradition, and artistry.”
           </p>
-          <p className="text-[9px] xsm:text-[15px] md:text-xl text-white drop-shadow-md">
+          <p className="text-[8px] xsm:text-[12px] md:text-xl text-white drop-shadow-md">
             At Gul Mehandi Creations, we believe Mehandi is more than just a
             design — it’s a celebration of culture, tradition, and new
             beginnings. With years of experience in bridal and festive Mehandi,
@@ -59,42 +59,42 @@ function HeroSection() {
       <Slider {...settings} className="p-5">
         <div>
           <img
-            className="w-full h-[300px] object-cover md:h-[450px]"
+            className="w-full h-[280px] object-cover md:h-[430px]"
             src={couple}
             alt="Couple"
           />
         </div>
         <div>
           <img
-            className="w-full h-[300px] object-cover md:h-[450px]"
+            className="w-full h-[280px] object-cover md:h-[430px]"
             src={couple2}
             alt="Couple 2"
           />
         </div>
         <div>
           <img
-            className="w-full h-[300px] object-cover md:h-[450px]"
+            className="w-full h-[280px] object-cover md:h-[430px]"
             src={bridehand}
             alt="Bride hand"
           />
         </div>
         <div>
           <img
-            className="w-full h-[300px] object-cover md:h-[450px]"
+            className="w-full h-[280px] object-cover md:h-[430px]"
             src={coupleBiHandicap}
             alt="Couple handicap"
           />
         </div>
         <div>
           <img
-            className="w-full h-[300px] object-cover md:h-[450px]"
+            className="w-full h-[280px] object-cover md:h-[430px]"
             src={groome}
             alt="Groom"
           />
         </div>
         <div>
           <img
-            className="w-full h-[300px] object-cover md:h-[450px]"
+            className="w-full h-[280px] object-cover md:h-[430px]"
             src={mehandi3}
             alt="Groom"
           />
