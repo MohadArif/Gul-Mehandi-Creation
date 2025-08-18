@@ -7,7 +7,7 @@ import mehandi2 from "../assets/gallery/mehandi2.png";
 
 function Gallery() {
   return (
-    <div className="min-h-[380px] py-5 px-10 sm:px-40 md:px-50">
+    <div className="min-h-[380px] py-5 px-20 sm:px-40 md:px-50">
       <h1 className="text-4xl font-bold text-center mb-6">Our Gallery</h1>
 
       <div className="relative w-full h-[300px] sm:h-[400px] md:h-[450px] px-5 sm:px-10">
